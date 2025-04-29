@@ -36,6 +36,8 @@ border-radius: 20px;
     color: #000;
 }
 
+
+/* Tombol */
 .isi .btn{
     display: flex;
     flex-direction: column;
@@ -71,6 +73,7 @@ border-radius: 20px;
     color: black;
 }
 
+/* Logo Sosial Media */
 .isi .sosmed{
     margin-top: 50px;
     text-align: center;
@@ -82,6 +85,7 @@ border-radius: 20px;
     margin-right: 20px;
 }
 
+/* Gambar */
 .hero{
     margin-top: 50px;
     display: flex;
