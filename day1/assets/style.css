@@ -1,0 +1,111 @@
+body{
+    background-color: #e3e7eb;
+    padding: 50px;
+    display: grid;
+}
+
+body .container{
+    display: grid;
+    width: 100%;
+    height: 1500px;
+    background-color: white;
+    place-self: center;
+    justify-items: center;
+    box-shadow: 3px 3px 21px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 3px 21px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 21px -5px rgba(0,0,0,0.75);
+border-radius: 20px;
+}
+
+.isi{
+    margin-top: 100px;
+    width: 60%;
+    /* background-color: aqua; */
+}
+
+.isi h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    color: #000;
+}
+
+.isi p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #000;
+}
+
+.isi .btn{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.isi .btn .contact{
+    font-size: 25px;
+    margin-top: 30px;
+    height: 50px;
+    width: 180px;
+    border-radius: 50px;
+    color: white;
+    background-color: #111727;
+}
+
+.isi .btn .contact:hover{
+    font-size: 35px;
+    height: 60px;
+    width: 190px;
+    transition: 0.5s;
+}
+
+.isi .btn .download-cv{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    height: 50px;
+    width: 300px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+.isi .sosmed{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.sosmed img{
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+}
+
+.hero{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+    .card{
+    height: 700px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 27px -7px rgba(0,0,0,0.42);
+-webkit-box-shadow: 2px 2px 27px -7px rgba(0,0,0,0.42);
+-moz-box-shadow: 2px 2px 27px -7px rgba(0,0,0,0.42);
+}
+
+
+.foto img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
